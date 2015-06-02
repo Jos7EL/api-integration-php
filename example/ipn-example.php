@@ -3,6 +3,7 @@
 session_start();
 error_reporting(E_ALL);
 ini_set("display_errors", 1);
+ini_set("allow_url_fopen", 1);
 
 require '../lib/paysonapi.php';
 // Your agent ID and md5 key
